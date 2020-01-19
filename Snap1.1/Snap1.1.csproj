@@ -43,8 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Add.cs" />
+    <Compile Include="CardHand.cs" />
+    <Compile Include="CardsEnums.cs" />
+    <Compile Include="GameOfCardsUtilities.cs" />
+    <Compile Include="GameOfSnap.cs" />
+    <Compile Include="ICard.cs" />
+    <Compile Include="ICardHand.cs" />
+    <Compile Include="IGameOfCardsUtilities.cs" />
+    <Compile Include="IGameOfSnap.cs" />
+    <Compile Include="IUserInterface.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserInterface.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
